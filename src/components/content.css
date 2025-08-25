@@ -1,0 +1,54 @@
+#MuiStack-content-root .MuiBox-root-content {
+ background-color: rgba(180, 216, 255, 0.15);
+ padding: 15px;
+}
+
+
+
+#MuiStack-content-root .MuiBox-root-content .content-title{
+ padding: 3px;
+ position: relative;
+}
+
+
+
+#MuiStack-content-root .MuiBox-root-content .content-title::after {
+ content: "";
+ position: absolute;
+ left: 0;
+ bottom: 0;
+ background-color: #685da9ff;
+ width: 50%;
+ height: 2px;
+}
+
+#list-container li {
+ font-weight: 600;
+ color: #639bd2;
+ padding: 4px;
+}
+
+
+.MuiBox-root-content .join-btn{
+ outline: none;
+ border: 1px solid #639bd2;
+ cursor: pointer;
+ color: #fff;
+ background-color: #639bd2;
+ font-weight: 500;
+ font-size: 22px;
+ padding: 5px 10px;
+ width: 50%;
+ border-radius: 5px;
+ transition: all 0.5s ease-in-out;
+}
+
+.MuiBox-root-content .join-btn:hover{
+ background-color: #ffffff;
+ color: #639bd2;
+}
+
+.MuiBox-root-content .card-content-text {
+ padding: 5px;
+ color: #347bc2;
+}
