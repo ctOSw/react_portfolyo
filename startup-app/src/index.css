@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+}
+
+
+
+/* Sağdan başlayan dalgalı şekil */
+.wave-background {
+  position: relative;
+  width: 100%;
+  background: 
+    radial-gradient(circle at 80% 80%, #FFFAB7, #5BBCFF); /* Dalgalı şekil */
+  border-radius: 0 0 50% 0; /* İsteğe göre şekil */
+}
+
+.wave-background::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60%;
+  height: 300px;
+  background: radial-gradient(circle at 50% 50%, #FFFAB7, #5BBCFF);
+  border-radius: 40% 60% 50% 50%;
+  opacity: 0.7;
+  z-index: -1; /* Kartların üstünde gözükmesin */
+}
+
+/* Radial Gradient Pattern Background */
+

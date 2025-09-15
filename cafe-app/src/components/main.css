@@ -1,0 +1,27 @@
+.App .cafe-bg{
+ background-image: url(../imgs/coffee-bg.jpg);
+ height: 380px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.App .order-btn{
+ background-color: #402218;
+ color: #FEF7DC;
+ width: 40%;
+ font-size: 1em;
+ transition: all 0.8s ease;
+ margin-top: 20px;
+}
+
+.App .order-btn:hover{
+background-color: #673c2e;
+}
+
+
+.App .menu-card:hover{
+ opacity: 1;
+ transform: scale(1.01);
+}
+

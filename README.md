@@ -1,5 +1,0 @@
-# Portfolyo
-react projelerim.
-
-
-

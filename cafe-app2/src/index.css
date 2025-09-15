@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  margin: 0;
+}
+
+
+
+/* Dropdown açılır menü arkaplan rengi */
+.ant-dropdown-menu {
+  background-color: #FFFDF6 !important; /* istediğin renk kodunu buraya koy */
+}
+
+
+.ant-dropdown-menu-title-content > a {
+  color : #000 !important
+}
+
+/* Carousel okları */
+.ant-carousel .slick-arrow {
+  color: rgb(255, 255, 255) !important;            /* ok rengi beyaz */
+  border-radius: 100%;
+  z-index: 10;
+  font-weight: 700 !important;
+  font-size:  2em;
+  opacity: 1 !important;             /* hover ile opacity değişmesin */
+}
+
+
+
