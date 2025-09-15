@@ -1,2 +1,2 @@
 # Portfolyo
-React projelerim.
+Portfolyo için yaptığım projeler.
